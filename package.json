@@ -1,0 +1,22 @@
+{
+  "name": "msw-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "msw": "^2.10.2"
+  },
+  "devDependencies": {
+    "metro": "^0.82.4",
+    "metro-config": "^0.82.4",
+    "patch-package": "^8.0.0",
+    "react-native": "^0.79.3"
+  }
+}

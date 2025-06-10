@@ -1,0 +1,45 @@
+diff --git a/node_modules/msw/native/package.json b/node_modules/msw/native/package.json
+index 849a2a7..52a48e2 100644
+--- a/node_modules/msw/native/package.json
++++ b/node_modules/msw/native/package.json
+@@ -1,29 +1,29 @@
+ {
+   "type": "commonjs",
+   "browser": null,
+-  "main": "../lib/native/index.js",
+-  "module": "../lib/native/index.mjs",
+-  "types": "../lib/native/index.d.ts",
++  "main": "../lib2/native/index.js",
++  "module": "../lib2/native/index.mjs",
++  "types": "../lib2/native/index.d.ts",
+   "exports": {
+     ".": {
+       "react-native": {
+         "import": {
+-          "types": "./../lib/native/index.d.mts",
+-          "default": "./../lib/native/index.mjs"
++          "types": "./../lib2/native/index.d.mts",
++          "default": "./../lib2/native/index.mjs"
+         },
+         "default": {
+-          "types": "./../lib/native/index.d.ts",
+-          "default": "./../lib/native/index.js"
++          "types": "./../lib2/native/index.d.ts",
++          "default": "./../lib2/native/index.js"
+         }
+       },
+       "browser": null,
+       "import": {
+-        "types": "./../lib/native/index.d.mts",
+-        "default": "./../lib/native/index.mjs"
++        "types": "./../lib2/native/index.d.mts",
++        "default": "./../lib2/native/index.mjs"
+       },
+       "default": {
+-        "types": "./../lib/native/index.d.ts",
+-        "default": "./../lib/native/index.js"
++        "types": "./../lib2/native/index.d.ts",
++        "default": "./../lib2/native/index.js"
+       }
+     }
+   }
